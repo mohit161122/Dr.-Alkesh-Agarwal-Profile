@@ -111,10 +111,7 @@ const Home = ({ setActiveTab }) => {
               </p>
             </div>
             <div className="about-highlights">
-              <div className="highlight-item">
-                <span className="highlight-icon">🎓</span>
-                <span>Ph.D in  Metamaterial</span>
-              </div>
+             
               <div className="highlight-item">
                 <span className="highlight-icon">📚</span>
                 <span>24+ Years Experience</span>
@@ -126,6 +123,10 @@ const Home = ({ setActiveTab }) => {
               <div className="highlight-item">
                 <span className="highlight-icon">🌐</span>
                 <span>IEEE Member</span>
+              </div>
+               <div className="highlight-item  pdh  ">
+                <span className="highlight-icon" >🎓</span>
+                <span >Ph.D in Metamaterial based Microwave Devices</span>
               </div>
             </div>
           </div>
