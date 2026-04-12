@@ -92,33 +92,19 @@ const Footer = ({ setActiveTab, setPatentView }) => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                🔗
+                <i class="fa-brands fa-linkedin"></i>
               </a>
               <a
-                href="https://twitter.com"
-                title="Twitter"
+                href="https://alkesh-agrawal.github.io/personal-web-page/myyoutubechannel.html"
+                title="YouTube"
                 className="social-icon"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                𝕏
+                <i class="fa-brands fa-youtube"></i>
               </a>
-              <a
-                href="mailto:contact@example.com"
-                title="Email"
-                className="social-icon"
-              >
-                ✉️
-              </a>
-              <a
-                href="https://github.com/alkesh-agrawal"
-                title="GitHub"
-                className="social-icon"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                🐙
-              </a>
+           
+             
             </div>
           </div>
 

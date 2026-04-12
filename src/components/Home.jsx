@@ -3,6 +3,7 @@ import './Home.css';
 import authorImg from '../assets/author.png';
 
 
+
 const Home = ({ setActiveTab }) => {
   const handleCardClick = (tab) => {
     if (setActiveTab) {
@@ -153,7 +154,9 @@ const Home = ({ setActiveTab }) => {
           <div className="contact-links">
 
              <a href="https://publons.com/researcher/Q-5750-2019/" target="_blank" className="contact-link wos">
-              <span className="contact-icon">🔍</span>
+              <span className="contact-icon">
+              <img src="/src/assets/1.png" alt="Web of Science" />
+              </span>
               <div className="contact-info">
                 <div className="contact-platform">Web of Science</div>
                 <div className="contact-handle">Prof. (Dr.) Alkesh Agrawal</div>
@@ -161,7 +164,9 @@ const Home = ({ setActiveTab }) => {
             </a>
 
             <a href="https://www.scopus.com/authid/detail.uri?authorId=57194016744" target="_blank" className="contact-link scopus">
-              <span className="contact-icon">📊</span>
+              <span className="contact-icon">
+              <img src="/src/assets/2.png" alt="Scopus" />
+              </span>
               <div className="contact-info">
                 <div className="contact-platform">Elsevier SCOPUS</div>
                 <div className="contact-handle">Prof. (Dr.) Alkesh Agrawal</div>
@@ -170,7 +175,9 @@ const Home = ({ setActiveTab }) => {
 
 
              <a href="https://orcid.org/0000-0001-6326-7560" target="_blank" className="contact-link orcid">
-              <span className="contact-icon">🆔</span>
+              <span className="contact-icon">
+              <img src="/src/assets/3.png" alt="ORCID" />
+              </span>
               <div className="contact-info">
                 <div className="contact-platform">ORCID</div>
                 <div className="contact-handle">Prof. (Dr.) Alkesh Agrawal</div>
@@ -178,7 +185,11 @@ const Home = ({ setActiveTab }) => {
             </a>
 
             <a href="https://in.linkedin.com/in/dr-alkesh-agrawal-0050a9172" target="_blank" className="contact-link linkedin">
-              <span className="contact-icon">💼</span>
+              <span className="contact-icon">
+                
+                <img src="/src/assets/4.png" alt="LinkedIn" />
+                
+                 </span>
               <div className="contact-info">
                 <div className="contact-platform">LinkedIn</div>
                 <div className="contact-handle">Prof. (Dr.) Alkesh Agrawal</div>
@@ -186,7 +197,9 @@ const Home = ({ setActiveTab }) => {
             </a>
 
              <a href="https://scholar.google.com/citations?hl=en&user=Yc6hSfcAAAAJ" target="_blank" className="contact-link scholar">
-              <span className="contact-icon">📚</span>
+              <span className="contact-icon">
+                <img src="/src/assets/5.png" alt="Google Scholar" />
+              </span>
               <div className="contact-info">
                 <div className="contact-platform">Google Scholar</div>
                 <div className="contact-handle">Prof. (Dr.) Alkesh Agrawal</div>
