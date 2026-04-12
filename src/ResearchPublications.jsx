@@ -259,7 +259,7 @@ const ResearchPublications = () => {
         </section>
 
         <section className="pub-section">
-          <h2 className="section-title-mod">Book Chapters</h2>
+          <h2 className="section-title-mod">Book Chapter Publications</h2>
           <div className="publications-grid-layout">
             {bookChapters.map((pub) => (
               <PublicationCard key={pub.id} pub={pub} />
