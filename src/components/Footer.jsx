@@ -111,7 +111,7 @@ const Footer = ({ setActiveTab, setPatentView }) => {
           {/* About */}
           <div className="footer-section">
             <h4>About</h4>
-            <p>24+ Years of Teaching Experience <br /> with 22+ Research Publications <br /> in WOS & Scopus, 10+ Patents Grants(National & International)</p>
+            <p>24+ years of teaching, research, and administration experience with 22+ research publications indexed in  <br /> WoS & SCOPUS, 15+ Patents granted <br />(UK & Indian)</p>
           </div>
         </div>
 

@@ -37,7 +37,7 @@ const Home = ({ setActiveTab }) => {
               <span className="hero-title-sub">Ph.D in Metamaterial based Microwave Devices</span>
             </h1>
             <p className="hero-description">
-               Metamaterial • Microwave Devices • Absorvers  <br />  • Antennas • Web Design
+               Metamaterial • Microwave Devices • Absorbers  <br />  • Antennas • Web Design
             </p>
             <div className="hero-cta">
               <a href="#about" className="cta-button primary">Learn More</a>
@@ -99,17 +99,10 @@ const Home = ({ setActiveTab }) => {
             <h2 className="section-title">About Me</h2>
             <div className="about-text">
               <p>
-                I hold a Ph.D in Broad-band EM Absorber based on Metamaterial with 24+ years of academic experience.
-                My research focuses on the design, simulation, fabrication, and testing of Metamaterial Absorbers.
+                Ph.D in Broad-band EM Absorber based on Metamaterial. I have a total academic experience of 24+ years with paper presentations and publications in reputed conferences and journals indexed in WoS and SCOPUS. I have been an active reviewer of papers of many reputed journals - IEEE Access, Journal of Physics Communication (IOP), Physica Scripta (IOP), Journal of Physics D: Applied Physics (IOP), Microwave and Optical Technology Letters (Wiley). I am professional member of IEEE and IAENG. <br /> Research interests include design, simulation, fabrication and testing of Metamaterial Absorbers.
               </p>
-              <p>
-                I have presented papers and published in reputed conferences and journals indexed in WoS and SCOPUS.
-                As an active reviewer, I contribute to prestigious journals including IEEE Access, Journal of Physics Communication (IOP),
-                Physica Scripta (IOP), Journal of Physics D: Applied Physics (IOP), and Microwave and Optical Technology Letters (Wiley).
-              </p>
-              <p>
-                I am a professional member of IEEE and passionate about advancing research in metamaterials and electromagnetic applications.
-              </p>
+              
+      
             </div>
             <div className="about-highlights">
              
@@ -137,7 +130,7 @@ const Home = ({ setActiveTab }) => {
                 <span className="youtube-icon">📺</span>
                 <h3>YouTube Channel</h3>
               </div>
-              <p>Digital Electronics & Communication Lectures</p>
+              <p>Lectutes on Digital Electronics,<br /> Analog & Digital Communication, LabVIEW, CST Simulation </p>
               <a href="https://alkesh-agrawal.github.io/personal-web-page/myyoutubechannel.html" target="_blank" className="youtube-button">
                 Visit Channel
               </a>

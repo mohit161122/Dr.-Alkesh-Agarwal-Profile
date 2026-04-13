@@ -163,7 +163,7 @@ const Patents = ({ defaultTab = 'indian' }) => {
           className={`patent-tab-btn ${activeTab === 'indian' ? 'active' : ''}`}
           onClick={() => setActiveTab('indian')}
         >
-          🇮🇳 Indian Patents ({indianPatents.length})
+           Indian Patents ({indianPatents.length})
         </button>
 
 
