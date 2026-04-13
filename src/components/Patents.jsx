@@ -144,9 +144,9 @@ const Patents = ({ defaultTab = 'indian' }) => {
       <div className="patents-header">
         <p className="patents-label">Innovations</p>
         <h1 className="page-title">Patents</h1>
-        <p className="patents-description">
+        {/* <p className="patents-description">
           A comprehensive portfolio of patents including innovative metamaterial technologies, IoT solutions, and advanced UAV systems.
-        </p>
+        </p> */}
       </div>
 
       <div className="patent-tabs">
