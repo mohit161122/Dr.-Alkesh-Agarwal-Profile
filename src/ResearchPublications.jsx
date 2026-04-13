@@ -67,7 +67,7 @@ const journalPapers = [
     title: "\"Quad Circular with Plus Shaped Resonators Based Multi-Band Metamaterial Absorber”",
     source: "International Journal of Microwave and Optical Technology, Vol. 20, no. 3, pp. 243-250, Jun., 2025.",
     indexing: "Indexed in SCOPUS", issn_isbn: "ISSN: 1553-0396",
-    doi_url: "https://ijmot.com/VOL-20-NO-3.aspx", image: "/src/assets/page7.png",
+    doi_url: "https://ijmot.com/VOL-20-NO-3.aspx", image: "/src/assets/page2.png",
     techImage: "https://alkesh-agrawal.github.io/personal-web-page/alkesh_mma2.png"
   },
   {

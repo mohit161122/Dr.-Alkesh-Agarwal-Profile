@@ -460,36 +460,54 @@
   letter-spacing: -0.5px;
 }
 
-.journals-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.journals-grid {
   display: grid;
-  gap: 14px;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  margin-top: 30px;
 }
 
-.journal-item {
+.journals-column {
   display: flex;
-  align-items: center;
-  gap: 16px;
-  padding: 18px 24px;
-  border-radius: 20px;
-  background: rgba(15, 23, 42, 0.85);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  color: var(--text-main);
-  font-size: 1rem;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.check-icon {
+.journal-entry {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 16px 20px;
+  border-radius: 12px;
+  background: rgba(15, 23, 42, 0.5);
+  border: 1px solid rgba(139, 92, 246, 0.2);
+  transition: all 0.3s var(--transition-cubic);
+}
+
+.journal-entry:hover {
+  background: rgba(15, 23, 42, 0.8);
+  border-color: rgba(139, 92, 246, 0.4);
+  transform: translateX(4px);
+}
+
+.journal-count {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 34px;
-  height: 34px;
-  border-radius: 50%;
-  background: rgba(139, 92, 246, 0.15);
+  min-width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background: rgba(139, 92, 246, 0.2);
   color: var(--primary);
   font-weight: 700;
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+
+.journal-name {
+  color: var(--text-main);
+  font-size: 0.95rem;
+  line-height: 1.5;
 }
 
 .certificate-section {
@@ -587,6 +605,11 @@
 
   .certificate-grid {
     grid-template-columns: 1fr;
+  }
+
+  .journals-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
   }
 }
 

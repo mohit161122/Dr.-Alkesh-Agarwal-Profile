@@ -1,12 +1,15 @@
 import React from 'react';
 import './shared.css';
 
-const journals = [
-  'IEEE Access',
-  'Microwave and Optical Technology Letters (MOP-Wiley)',
-  'Journal of Physics Communication (IOP)',
-  'Physica Scripta (IOP)',
-  'Journal of Physics D: Applied Physics (IOP)'
+const journalsData = [
+  { count: 16, name: 'Physica Scripta' },
+  { count: 6, name: 'IEEE Access' },
+  { count: 5, name: 'Engineering Research Express' },
+  { count: 2, name: 'Journal of Physics Communications' },
+  { count: 11, name: 'Journal of Physics D: Applied Physics' },
+  { count: 6, name: 'Waves in Random and Complex Media' },
+  { count: 2, name: 'Journal of Optics' },
+  { count: 1, name: 'Microwave and Optical Technology Letters' }
 ];
 
 const certificates = [
@@ -55,19 +58,29 @@ const Reviewer = () => {
 
       <div className="reviewer-summary">
         <p className="reviewer-intro">
-          I have been an active reviewer of papers for many reputed journals and publishers, including IEEE, IOP Science, and Wiley.
+          {/* I have been an active reviewer of papers for many reputed journals and publishers, including IEEE, IOP Science, and Wiley. */}
         </p>
 
         <div className="journals-reviewed">
-          <h2>Journals Reviewed</h2>
-          <ul className="journals-list">
-            {journals.map((journal, index) => (
-              <li key={index} className="journal-item">
-                <span className="check-icon">✓</span>
-                {journal}
-              </li>
-            ))}
-          </ul>
+          <h2>Verified Peer Reviews</h2>
+          <div className="journals-grid">
+            <div className="journals-column">
+              {journalsData.slice(0, 4).map((journal, index) => (
+                <div key={index} className="journal-entry">
+                  <span className="journal-count">{journal.count}</span>
+                  <span className="journal-name">{journal.name}</span>
+                </div>
+              ))}
+            </div>
+            <div className="journals-column">
+              {journalsData.slice(4).map((journal, index) => (
+                <div key={index + 4} className="journal-entry">
+                  <span className="journal-count">{journal.count}</span>
+                  <span className="journal-name">{journal.name}</span>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
 
