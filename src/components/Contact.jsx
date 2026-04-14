@@ -1,6 +1,11 @@
 import React from 'react';
 import './Contact.css';
 
+// Import images
+import linkedinImg from '../assets/4.png';
+import scholarImg  from '../assets/5.png';
+import wosImg      from '../assets/1.png';
+
 const Contact = () => {
   return (
     <div className="contact-page-container">
@@ -38,7 +43,7 @@ const Contact = () => {
         {/* Social Media Holders */}
         <a href="https://in.linkedin.com/in/dr-alkesh-agrawal-0050a9172" target="_blank" rel="noopener noreferrer" className="contact-box social linkedin">
           <div className="social-icon">
-            <img className='Contect-Icons' src="/src/assets/4.png" alt="LinkedIn" />
+            <img className='Contect-Icons' src={linkedinImg} alt="LinkedIn" />
           </div>
           <h2 className="social-name">LinkedIn</h2>
           <p className="social-desc">Connect professionally and explore academic networking opportunities.</p>
@@ -46,7 +51,7 @@ const Contact = () => {
 
         <a href="https://scholar.google.com/citations?hl=en&user=Yc6hSfcAAAAJ" target="_blank" rel="noopener noreferrer" className="contact-box social scholar">
           <div className="social-icon">
-            <img className='Contect-Icons' src="/src/assets/5.png" alt="Google Scholar" />
+            <img className='Contect-Icons' src={scholarImg} alt="Google Scholar" />
           </div>
           <h2 className="social-name">Google Scholar</h2>
           <p className="social-desc">Explore my complete list of indexed research publications and citations.</p>
@@ -54,7 +59,7 @@ const Contact = () => {
 
         <a href="https://publons.com/researcher/Q-5750-2019/" target="_blank" rel="noopener noreferrer" className="contact-box social facebook">
           <div className="social-icon">
-            <img className='Contect-Icons' src="/src/assets/1.png" alt="Web of Science" />
+            <img className='Contect-Icons' src={wosImg} alt="Web of Science" />
           </div>
           <h2 className="social-name">Web of Science Researcher</h2>
           {/* <p className="social-desc">Follow my personal updates and community engagement.</p> */}
