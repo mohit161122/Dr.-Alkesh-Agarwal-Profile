@@ -118,7 +118,7 @@ const Footer = ({ setActiveTab, setPatentView }) => {
         {/* Footer Bottom */}
         <div className="footer-bottom">
           <p>&copy; {currentYear} Dr. Alkesh Agarwal. All rights reserved.</p>
-          <p>Built with <span className="heart">❤️</span> using React </p>
+          <p>&copy; Built with Dr. Alkesh Agarwal. </p>
         </div>
       </div>
 
