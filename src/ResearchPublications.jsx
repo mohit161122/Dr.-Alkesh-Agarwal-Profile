@@ -3,29 +3,29 @@ import './ResearchPublications.css';
 import authorImg from './assets/author.png';
 
 // Page images
-import page1 from '../assets/page1.png';
-import page2 from '../assets/page2.png';
-import page3 from '../assets/page3.png';
-import page4 from '../assets/page4.png';
-import page5 from '../assets/page5.png';
-import page6 from '../assets/page6.png';
-import page8 from '../assets/page8.png';
-import page9 from '../assets/page9.png';
-import page10 from '../assets/page10.png';
-import page11 from '../assets/page11.png';
-import page12 from '../assets/page12.png';
-import page13 from '../assets/page13.png';
-import page14 from '../assets/page14.png';
-import page15 from '../assets/page15.png';
-import page16 from '../assets/page16.png';
+import page1 from './assets/page1.png';
+import page2 from './assets/page2.png';
+import page3 from './assets/page3.png';
+import page4 from './assets/page4.png';
+import page5 from './assets/page5.png';
+import page6 from './assets/page6.png';
+import page8 from './assets/page8.png';
+import page9 from './assets/page9.png';
+import page10 from './assets/page10.png';
+import page11 from './assets/page11.png';
+import page12 from './assets/page12.png';
+import page13 from './assets/page13.png';
+import page14 from './assets/page14.png';
+import page15 from './assets/page15.png';
+import page16 from './assets/page16.png';
 
 // Book images
-import book1 from '../assets/book1.png';
-import book2 from '../assets/book2.png';
-import book3 from '../assets/book3.png';
-import book4 from '../assets/book4.png';
-import book5 from '../assets/book5.png';
-import book6 from '../assets/book6.png';
+import book1 from './assets/book1.png';
+import book2 from './assets/book2.png';
+import book3 from './assets/book3.png';
+import book4 from './assets/book4.png';
+import book5 from './assets/book5.png';
+import book6 from './assets/book6.png';
 
 
 const journalPapers = [
@@ -148,7 +148,7 @@ const journalPapers = [
     source: "2019 IEEE International Conference on Computing, Power and Communication Technologies (GUCON), pp. 121-124, 2019.",
     indexing: "Indexed in SCOPUS", issn_isbn: "Electronic ISBN: 978-1-7281-0000-5",
     doi_url: "https://ieeexplore.ieee.org/document/8991515", 
-    image
+    image: page13
   },
   {
     id: 14, acronym: "IEEE", publisher: "IEEE", journal: "IEEE-Xplore",
