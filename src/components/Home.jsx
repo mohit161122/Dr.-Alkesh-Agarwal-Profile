@@ -1,7 +1,6 @@
 import React from 'react';
 import './Home.css';
 import authorImg from '../assets/author.png';
-import authorImg from '../assets/author.png';
 import wosImg from '../assets/1.png';
 import scopusImg from '../assets/2.png';
 import orcidImg from '../assets/3.png';
@@ -164,7 +163,7 @@ const Home = ({ setActiveTab }) => {
 
             <a href="https://www.scopus.com/authid/detail.uri?authorId=57194016744" target="_blank" className="contact-link scopus">
               <span className="contact-icon">
-              <img src="/src/assets/2.png" alt="Scopus" />
+              <img src={scopusImg} alt="Scopus" />
               </span>
               <div className="contact-info">
                 <div className="contact-platform">Elsevier SCOPUS</div>
@@ -175,7 +174,7 @@ const Home = ({ setActiveTab }) => {
 
              <a href="https://orcid.org/0000-0001-6326-7560" target="_blank" className="contact-link orcid">
               <span className="contact-icon">
-              <img src="/src/assets/3.png" alt="ORCID" />
+             <img src={orcidImg} alt="ORCID" />
               </span>
               <div className="contact-info">
                 <div className="contact-platform">ORCID</div>
@@ -186,7 +185,7 @@ const Home = ({ setActiveTab }) => {
             <a href="https://in.linkedin.com/in/dr-alkesh-agrawal-0050a9172" target="_blank" className="contact-link linkedin">
               <span className="contact-icon">
                 
-                <img src="/src/assets/4.png" alt="LinkedIn" />
+              <img src={linkedinImg} alt="LinkedIn" />
                 
                  </span>
               <div className="contact-info">
@@ -197,7 +196,7 @@ const Home = ({ setActiveTab }) => {
 
              <a href="https://scholar.google.com/citations?hl=en&user=Yc6hSfcAAAAJ" target="_blank" className="contact-link scholar">
               <span className="contact-icon">
-                <img src="/src/assets/5.png" alt="Google Scholar" />
+               <img src={scholarImg} alt="Google Scholar" />
               </span>
               <div className="contact-info">
                 <div className="contact-platform">Google Scholar</div>
