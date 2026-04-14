@@ -1,6 +1,12 @@
 import React from 'react';
 import './Home.css';
 import authorImg from '../assets/author.png';
+import authorImg from '../assets/author.png';
+import wosImg from '../assets/1.png';
+import scopusImg from '../assets/2.png';
+import orcidImg from '../assets/3.png';
+import linkedinImg from '../assets/4.png';
+import scholarImg from '../assets/5.png';
 
 
 
@@ -148,7 +154,7 @@ const Home = ({ setActiveTab }) => {
 
              <a href="https://publons.com/researcher/Q-5750-2019/" target="_blank" className="contact-link wos">
               <span className="contact-icon">
-              <img src="/src/assets/1.png" alt="Web of Science" />
+              <img src={wosImg} alt="Web of Science" />
               </span>
               <div className="contact-info">
                 <div className="contact-platform">Web of Science</div>
