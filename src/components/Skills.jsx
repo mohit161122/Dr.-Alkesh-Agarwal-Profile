@@ -1,6 +1,17 @@
 import React, { useState } from 'react';
 import './shared.css';
 
+// Import all skill images
+import img14 from '../assets/14.png';
+import img6  from '../assets/6.gif';
+import img7  from '../assets/7.png';
+import img8  from '../assets/8.webp';
+import img9  from '../assets/9.webp';
+import img12 from '../assets/12.webp';
+import img11 from '../assets/11.webp';
+import img13 from '../assets/13.webp';
+
+
 const SkillLogo = ({ name, image }) => {
   const [imageFailed, setImageFailed] = useState(false);
 
@@ -22,18 +33,18 @@ const SkillLogo = ({ name, image }) => {
 
 const skillsData = {
   software: [
-    { name: 'CST Microwave Studio', level: 99, image: "/src/assets/14.png", description: 'Design & Simulation' },
-    { name: 'MATLAB & Simulink', level: 98, image: "/src/assets/6.gif", description: 'Programming & Modeling' },
-    { name: 'LabVIEW', level: 99, image: "/src/assets/7.png", description: 'Programming & Automation' },
-    { name: 'Scilab', level: 98, image: "/src/assets/8.webp", description: 'Scientific Computing' },
-    { name: 'MS Visio', level: 97, image: "/src/assets/9.webp", description: 'Diagramming & Design' }
+    { name: 'CST Microwave Studio', level: 99, image: img14, description: 'Design & Simulation' },
+    { name: 'MATLAB & Simulink', level: 98, image:img6, description: 'Programming & Modeling' },
+    { name: 'LabVIEW', level: 99, image: image: img7, description: 'Programming & Automation' },
+    { name: 'Scilab', level: 98,image: img8, description: 'Scientific Computing' },
+    { name: 'MS Visio', level: 97, image: img9, description: 'Diagramming & Design' }
   ],
   design: [
-    { name: 'Web Design', level: 90, image: "/src/assets/12.webp", description: 'HTML, CSS, JS' },
-    { name: 'Technical Documentation', level: 99, image: "/src/assets/11.webp", description: 'Specification Writing' }
+    { name: 'Web Design', level: 90, image:  img12, description: 'HTML, CSS, JS' },
+    { name: 'Technical Documentation', level: 99, image: img11, description: 'Specification Writing' }
   ],
   research: [
-    { name: 'Research Methodology', level: 99, image: "/src/assets/13.webp", description: 'Experimental Design' }
+    { name: 'Research Methodology', level: 99, image: img13, description: 'Experimental Design' }
   ]
 };
 
