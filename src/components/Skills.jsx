@@ -35,7 +35,7 @@ const skillsData = {
   software: [
     { name: 'CST Microwave Studio', level: 99, image: img14, description: 'Design & Simulation' },
     { name: 'MATLAB & Simulink', level: 98, image:img6, description: 'Programming & Modeling' },
-    { name: 'LabVIEW', level: 99, image: image: img7, description: 'Programming & Automation' },
+    { name: 'LabVIEW', level: 99, image:img7, description: 'Programming & Automation' },
     { name: 'Scilab', level: 98,image: img8, description: 'Scientific Computing' },
     { name: 'MS Visio', level: 97, image: img9, description: 'Diagramming & Design' }
   ],
