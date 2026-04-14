@@ -67,9 +67,9 @@ const Awards = () => {
       <div className="awards-header">
         <p className="awards-label">Awards</p>
         <h1 className="page-title"> Awards, Scholarships & Medals</h1>
-        <p className="awards-description">
+        {/* <p className="awards-description">
           A curated list of academic and research recognitions, including paper awards, faculty honors, scholarships, and medals.
-        </p>
+        </p> */}
       </div>
 
       <div className="award-list-section">
