@@ -50,7 +50,7 @@ const Media = () => {
     <div className="page-container media-page">
       <div className="media-header">
         <p className="media-label">Media</p>
-        <h1 className="page-title">Media and Outreach</h1>
+        <h1 className="page-title">TechFest at SRMU</h1>
       </div>
 
       <div className="media-grid">
