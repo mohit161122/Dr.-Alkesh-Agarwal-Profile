@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import ResearchPublications from './ResearchPublications';
 import Gallery from './components/Gallery';
+import Media from './components/Media';
 import Awards from './components/Awards';
 import Patents from './components/Patents';
 import Reviewer from './components/Reviewer';
@@ -24,6 +25,8 @@ function App() {
         return <ResearchPublications />;
       case 'Images':
         return <Gallery />;
+      case 'Media':
+        return <Media />;
       case 'Awards':
         return <Awards />;
       case 'Patents':

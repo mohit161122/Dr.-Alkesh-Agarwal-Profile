@@ -7,11 +7,13 @@ const Navbar = ({ activeTab, setActiveTab }) => {
   const tabs = [
     { id: 'Home', label: 'Home' },
     { id: 'Publications', label: 'Publications' },
+   
     { id: 'Awards', label: 'Awards' },
     { id: 'Patents', label: 'Patents' },
     { id: 'Reviewer', label: 'Reviewer' },
     { id: 'Skills', label: 'Skills' },
     { id: 'Images', label: 'Gallery' },
+    { id: 'Media', label: 'Media' },
     { id: 'Contact', label: 'Contact' }
   ];
 
