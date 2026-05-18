@@ -54,7 +54,7 @@ const journalPapers = [
   },
   {
     id: 3, acronym: "IJASS", publisher: "Springer Nature", journal: "Int. Jour. Aero. & Space Sc.",
-    authors: "Saifullah Khalid, Sashi Kant Gupta, Midhun Chakkaravarthy, Dharmendra Prakash, Alkesh Agrawal, D. K. Nishad",
+    authors: "Saifullah Khalid, Sashi Kant Gupta, Midhun Chakkaravarthy, Dharmendra Prakash, Dr.Alkesh Agrawal, D. K. Nishad",
     title: "“AI-Optimized UAV Swarm System for Radiation Fog Dispersal and Runway Visibility Enhancement at Airport”",
     source: "International Journal of Aeronautical and Space Science (Springer Nature), Vol. 27, no. 1, 2025.",
     indexing: "Indexed in WoS-SCIE, I.F 1.6", issn_isbn: "ISSN: 2093-2480",
@@ -235,10 +235,14 @@ const bookChapters = [
 ];
 
 const renderAuthors = (authors) => {
-  const parts = authors.split(/(Alkesh Agrawal\*?)/g);
-  return parts.map((part, i) =>
-    part.startsWith('Alkesh Agrawal') ? <strong key={i}>{part}</strong> : part
-  );
+  const parts = authors.split(/(Dr\.?Alkesh Agrawal\*?)/g);
+  return parts.map((part, i) => {
+    if (part.match(/Alkesh Agrawal/)) {
+      const displayName = part.startsWith('Dr.') ? part : `Dr. ${part}`;
+      return <strong><em key={i}>{displayName}</em></strong>;
+    }
+    return part;
+  });
 };
 
 const PublicationCard = ({ pub }) => {
