@@ -10,9 +10,9 @@ const mediaHighlights = [
   {
     id: 1,
     category: 'Newspaper Feature',
-    title: 'Electoral Politics and Governance in India',
+    title: 'Techfest Organized at Shri Ramswaroop Memorial University',
     image: media1,
-    description: 'An analytical article discussing democracy, political opposition, governance, and public accountability in the Indian political landscape..',
+    description: 'Hindi news coverage highlighting the zonal round of Indian Institute of Technology Bombay TechFest organized at SRMU under the supervision of Dr. Alkesh Agrawal.',
     link: media1,
     cta: 'See full page'
   },
@@ -21,16 +21,16 @@ const mediaHighlights = [
     category: 'Newspaper Feature',
     title: 'Techfest Organized at Shri Ramswaroop Memorial University',
     image: media2,
-    description: 'Press release for the three-day international conference "I-CON-QUET-2019" organized at Shri Ramswaroop Memorial University.',
+    description: 'English news coverage highlighting the zonal round of Indian Institute of Technology Bombay TechFest organized at SRMU under the supervision of Dr. Alkesh Agrawal.',
     link: media2,
     cta: 'See full page'
   },
   {
     id: 3,
     category: 'Newspaper Feature',
-    title: 'International Conference I-Con-Kyut-2019 Organized at SRMU',
+    title: 'IEEE International Conference IConCuTE-2019 Organized at SRMU',
     image: media5,
-    description: 'Hindi news coverage highlighting the zonal round of Indian Institute of Technology Bombay\'s TechFest organized at SRMU under the supervision of coordinator Dr. Alkesh Aggarwal.',
+    description: 'Press release for the three-days IEEE international conference "IConCuTE-2019" organized at Shri Ramswaroop Memorial University.',
     link: media3,
     cta: 'See full page'
   },
@@ -49,8 +49,8 @@ const Media = () => {
   return (
     <div className="page-container media-page">
       <div className="media-header">
-        <p className="media-label">Media</p>
-        <h1 className="page-title">TechFest at SRMU</h1>
+        <h1 className="page-title">Media Coverage </h1>
+        
       </div>
 
       <div className="media-grid">
