@@ -33,7 +33,7 @@ const journalPapers = [
     id: 1, acronym: "IJCIS",
     publisher: "Springer Nature",
     journal: "Int. Jour. Comp. Intelli Sys.",
-    authors: "Saifullah Khalid, Shashi Kant Gupta, Midhun Chakkaravarthy, D. K. Nishad, Dharmendra Prakash, Alkesh Agrawal",
+    authors: "Saifullah Khalid, Shashi Kant Gupta, Midhun Chakkaravarthy, D. K. Nishad, Dharmendra Prakash, Dr.Alkesh Agrawal",
     title: "“Multi-modal AI-Enabled UAV Network for Fog Dispersal and Runway-Visibility Enhancement at an International Airport”",
     source: "International Journal of Computational Intelligence Systems (Springer Nature), Vol. 19, pp. (57) 1-62, 2026.",
     indexing: "Indexed in WoS-SCIE, I.F 3.3", issn_isbn: "ISSN: 1875-6883",
@@ -42,7 +42,7 @@ const journalPapers = [
   },
   {
     id: 2, acronym: "IJMOT", publisher: "IJMOT", journal: "Int. J. Micr. & Opt. Tech.",
-    authors: "Bhagwant Singh, Alkesh Agrawal*, Supriya, Alka Yadav",
+    authors: "Bhagwant Singh, Dr.Alkesh Agrawal*, Supriya, Alka Yadav",
     title: "“Multi-Band with Ultra Wide-Band Square Circular and Cross Shaped Resonators Based Metamaterial Absorber for Stealth and 5G Applications”",
     source: "International Journal of Microwave and Optical Technology, Vol. 21, no. 1, pp. 58-66, Jan., 2026.",
     indexing: "Indexed in SCOPUS", issn_isbn: "ISSN: 1553-0396",
@@ -63,7 +63,7 @@ const journalPapers = [
   },
   {
     id: 4, acronym: "IEEE", publisher: "IEEE", journal: "IEEE-Xplore",
-    authors: "Bhagwant Singh, Alkesh Agrawal",
+    authors: "Bhagwant Singh, Dr.Alkesh Agrawal",
     title: "“C and Inverted-C Shaped Multi-band Metamaterial Absorber”",
     source: "2024 International Conference on Control, Computing, Communication and Materials (ICCCCM) ... 2024.",
     indexing: "Indexed in SCOPUS", issn_isbn: "Electronic ISBN: 979-8-3503-7872-6",
@@ -71,7 +71,7 @@ const journalPapers = [
   },
   {
     id: 5, acronym: "IEEE", publisher: "IEEE", journal: "IEEE-Xplore",
-    authors: "Dharmendra Prakash, Alkesh Agrawal, Saifullah Khalid, Dinesh Kumar Nisha, Vinay Kumar Singh",
+    authors: "Dharmendra Prakash, Dr.Alkesh Agrawal, Saifullah Khalid, Dinesh Kumar Nisha, Vinay Kumar Singh",
     title: "\"Innovative Approaches to Fog Dispersal: The Emerging Role of Unmanned Aerial Vehicles,\"",
     source: "2024 IEEE 11th Uttar Pradesh Section International Conference (UPCON) ... 2024.",
     indexing: "Indexed in SCOPUS", issn_isbn: "Electronic ISBN: 979-8-3503-7873-3",
@@ -79,7 +79,7 @@ const journalPapers = [
   },
   {
     id: 6, acronym: "PIER-M", publisher: "PIER", journal: "PIER M",
-    authors: "Sunil K. Dubey, Ashok Kumar Shankhwar, Nand Kishore, and Alkesh Agrawal*",
+    authors: "Sunil K. Dubey, Ashok Kumar Shankhwar, Nand Kishore, and Dr.Alkesh Agrawal*",
     title: "\"High Gain and Bandwidth Enhanced Microstrip Patch Antenna with Defective Ground Structure Loaded with Metamaterial Unit Cells for Intelligent Transportation Systems,\"",
     source: "Progress In Electromagnetics Research M, Vol. 136, 57-67, 2025.",
     indexing: "Indexed in WoS-SCIE, I.F 0.8", issn_isbn: "ISSN: 1937-8726",
@@ -89,7 +89,7 @@ const journalPapers = [
   },
   {
     id: 7, acronym: "IJMOT", publisher: "IJMOT", journal: "IJMOT",
-    authors: "Bhagwant Singh, Alkesh Agrawal*, Supriya, Alka Yadav",
+    authors: "Bhagwant Singh, Dr.Alkesh Agrawal*, Supriya, Alka Yadav",
     title: "\"Quad Circular with Plus Shaped Resonators Based Multi-Band Metamaterial Absorber”",
     source: "International Journal of Microwave and Optical Technology, Vol. 20, no. 3, pp. 243-250, Jun., 2025.",
     indexing: "Indexed in SCOPUS", issn_isbn: "ISSN: 1553-0396",
@@ -98,7 +98,7 @@ const journalPapers = [
   },
   {
     id: 8, acronym: "Silicon", publisher: "Springer Nature", journal: "Silicon",
-    authors: "Rahul Misra, Kunal Singh, Alkesh Agrawal, Anant Kumar Maurya",
+    authors: "Rahul Misra, Kunal Singh, Dr.Alkesh Agrawal, Anant Kumar Maurya",
     title: "\"Electronic Noise Analysis in Silicon Junctionless Nanowire Transistor and Its Reliability Performance with Interface Trap Charge,\"",
     source: "Silicon (Springer Nature), July 16, 2022.",
     indexing: "Indexed in WoS-SCIE, I.F 3.3", issn_isbn: "ISSN: 1876-9918",
@@ -106,7 +106,7 @@ const journalPapers = [
   },
   {
     id: 9, acronym: "JMOe", publisher: "JMOe", journal: "J. Microw. Optoelectron. Electromagn. Appl.",
-    authors: "Alkesh Agrawal and Mukul Misra",
+    authors: "Dr.Alkesh Agrawal and Mukul Misra",
     title: "\"Angle of Incidence and Polarization Insensitive Fractal Shaped Dual Broad-Band Metamaterial Absorber for C- and X-Band Applications,\"",
     source: "JMOe, Vol. 20, No. 3, pp. 556-569, 2021.",
     indexing: "Indexed in SCOPUS", issn_isbn: "ISSN: 2179-1074",
@@ -114,7 +114,7 @@ const journalPapers = [
   },
   {
     id: 10, acronym: "PIER-C", publisher: "PIER", journal: "PIER C",
-    authors: "Kunal Krishna Upadhyay, Alkesh Agrawal, and Mukul Misra",
+    authors: "Kunal Krishna Upadhyay, Dr.Alkesh Agrawal, and Mukul Misra",
     title: "\"Wide-Band Log-Periodic Microstrip Antenna with Defected Ground Structure for C-Band Applications,\"",
     source: "Progress In Electromagnetics Research C, Vol. 112, 127-137, 2021.",
     indexing: "Indexed in SCOPUS", issn_isbn: "ISSN: 1937-8718",
@@ -124,7 +124,7 @@ const journalPapers = [
   },
   {
     id: 11, acronym: "MRX", publisher: "IOP", journal: "Materials Research Express",
-    authors: "Alkesh Agrawal, Mukul Misra and Ashutosh Singh",
+    authors: "Dr.Alkesh Agrawal, Mukul Misra and Ashutosh Singh",
     title: "“Wide incidence angle and polarization insensitive dual broad-band metamaterial absorber based on concentric split and continuous rings resonator structure”",
     source: "Materials Research Express (IOP Science), Vol. 5, no. 11, pp. 115801, 2018.",
     indexing: "Indexed in WoS-SCIE, I.F 1.151", issn_isbn: "ISSN: 2053-1591",
@@ -134,7 +134,7 @@ const journalPapers = [
   },
   {
     id: 12, acronym: "PIER-M", publisher: "PIER", journal: "PIER M",
-    authors: "Alkesh Agrawal, Mukul Misra and Ashutosh Singh",
+    authors: "Dr.Alkesh Agrawal, Mukul Misra and Ashutosh Singh",
     title: "“Oblique Incidence and Polarization Insensitive Fractal Shaped Metamaterial Absorber for C-Band Applications”",
     source: "Progress In Electromagnetics Research M, Vol. 60, pp. 33-46, 2017.",
     indexing: "Indexed in SCOPUS", issn_isbn: "ISSN: 1937-8726",
@@ -143,7 +143,7 @@ const journalPapers = [
   },
   {
     id: 13, acronym: "IEEE", publisher: "IEEE", journal: "IEEE-Xplore",
-    authors: "Kunal Krishna Upadhyay, Alkesh Agrawal and Mukul Misra",
+    authors: "Kunal Krishna Upadhyay, Dr.Alkesh Agrawal and Mukul Misra",
     title: "“Wide-band CPW-Fed Slotted Microstrip Antenna with Defected Ground Structure for C-Band Applications”",
     source: "2019 IEEE International Conference on Computing, Power and Communication Technologies (GUCON), pp. 121-124, 2019.",
     indexing: "Indexed in SCOPUS", issn_isbn: "Electronic ISBN: 978-1-7281-0000-5",
@@ -152,7 +152,7 @@ const journalPapers = [
   },
   {
     id: 14, acronym: "IEEE", publisher: "IEEE", journal: "IEEE-Xplore",
-    authors: "Alkesh Agrawal, Mukul Misra and Ashutosh Singh",
+    authors: "Dr.Alkesh Agrawal, Mukul Misra and Ashutosh Singh",
     title: "“A Dual Broadband Metamaterial Absorber with C-shaped Resonator Structure”",
     source: "2017 11th International Conference on Industrial and Information Systems (ICIIS), pp. 597-601, 2017.",
     indexing: "Indexed in SCOPUS", issn_isbn: "Electronic ISBN: 978-1-5090-5384-1",
@@ -161,7 +161,7 @@ const journalPapers = [
   },
   {
     id: 15, acronym: "IEEE", publisher: "IEEE", journal: "IEEE-Xplore",
-    authors: "Dinesh Kumar, Alkesh Agrawal and Mukul Misra",
+    authors: "Dinesh Kumar, Dr.Alkesh Agrawal and Mukul Misra",
     title: "“Non Iterative LDPC Codes for Error Correction”",
     source: "2016 3rd International Conference on Recent Advances in Information Technology (RAIT), pp. 22-25, 2016.",
     indexing: "Indexed in SCOPUS", issn_isbn: "Electronic ISBN: 978-1-5090-2146-8",
@@ -170,7 +170,7 @@ const journalPapers = [
   },
   {
     id: 16, acronym: "IJAMT", publisher: "IJAMT", journal: "Int. Jour. of Adv. in Micro. Tech.",
-    authors: "Alkesh Agrawal, Mukul Misra and Ashutosh Singh",
+    authors: "Dr.Alkesh Agrawal, Mukul Misra and Ashutosh Singh",
     title: "“A Multiband Metamaterial Absorber based on Triangular Split Ring Resonator Structure”",
     source: "International Journal of Advances in Microwave Technology, Vol. 1, no. 1, pp. 5-9, 2016.",
     indexing: "Peer Reviewed", issn_isbn: "ISSN: 2456-4346",
@@ -183,7 +183,7 @@ const journalPapers = [
 const bookChapters = [
   {
     id: 101, acronym: "IGI", publisher: "IGI Global", journal: "Book Chapter",
-    authors: "S. Khalid, Shashi Kant Gupta, Midhun Chakkaravarthy, Dharmendra Prakash, Alkesh Agrawal, Dinesh Kumar Nishad",
+    authors: "S. Khalid, Shashi Kant Gupta, Midhun Chakkaravarthy, Dharmendra Prakash, Dr.Alkesh Agrawal, Dinesh Kumar Nishad",
     title: "\"Nano-Engineered Surface Coatings for Corrosion Resistance in UAV-Based Fog Dispersal Systems\"",
     source: "Advancements in Nanomaterials for Sustainable Aviation, 2025.",
     indexing: "Indexed in SCOPUS", issn_isbn: "DOI: 10.4018/979-8-3373-3862-0.ch005",
@@ -192,7 +192,7 @@ const bookChapters = [
   },
   {
     id: 102, acronym: "IGI", publisher: "IGI Global", journal: "Book Chapter",
-    authors: "S. Khalid, Shashi Kant Gupta, Midhun Chakkaravarthy, Dharmendra Prakash, Alkesh Agrawal, Dinesh Kumar Nishad",
+    authors: "S. Khalid, Shashi Kant Gupta, Midhun Chakkaravarthy, Dharmendra Prakash, Dr.Alkesh Agrawal, Dinesh Kumar Nishad",
     title: "\"Graphene in Electromagnetic Interference Shielding: From Fundamentals to Aerospace and 5G Applications\"",
     source: "Advancements in Nanomaterials for Sustainable Aviation, 2025.",
     indexing: "Indexed in SCOPUS", issn_isbn: "DOI: 10.4018/979-8-3373-3862-0.ch007",
@@ -201,7 +201,7 @@ const bookChapters = [
   },
   {
     id: 103, acronym: "IGI", publisher: "IGI Global", journal: "Book Chapter",
-    authors: "Dharmendra Prakash, Alkesh Agrawal, Saifullah Khalid",
+    authors: "Dharmendra Prakash, Dr.Alkesh Agrawal, Saifullah Khalid",
     title: "\"A Comprehensive and In-Depth Review of Innovative Antenna Designs for UAVs\"",
     source: "Advanced Antenna Technologies for Aerial Platforms, 2025.",
     indexing: "Indexed in SCOPUS", issn_isbn: "DOI: 10.4018/979-8-3693-6035-4.ch001",
@@ -210,7 +210,7 @@ const bookChapters = [
   },
   {
     id: 104, acronym: "IGI", publisher: "IGI Global", journal: "Book Chapter",
-    authors: "Dharmendra Prakash, Alkesh Agrawal, Saifullah Khalid",
+    authors: "Dharmendra Prakash, Dr.Alkesh Agrawal, Saifullah Khalid",
     title: "\"Comparative Analysis of UAVs: A Study on Payload Capacity and Performance\"",
     source: "New Innovations in AI, Aviation, and Air Traffic Technology, 2024.",
     indexing: "Indexed in SCOPUS", issn_isbn: "DOI: 10.4018/979-8-3693-1954-3.ch007",
@@ -218,7 +218,7 @@ const bookChapters = [
   },
   {
     id: 105, acronym: "IGI", publisher: "IGI Global", journal: "Book Chapter",
-    authors: "Alkesh Agrawal, Bhagwant Singh",
+    authors: " Dr.Alkesh Agrawal, Bhagwant Singh",
     title: "\"Study of Novel Design of Multi-Band and Broad-Band Metamaterial Microwave Absorber\"",
     source: "Metamaterial Technology and Intelligent Metasurface for Wireless Communication Systems, 2023.",
     indexing: "Indexed in SCOPUS", issn_isbn: "ISBN: 9781668469378",
@@ -226,7 +226,7 @@ const bookChapters = [
   },
   {
     id: 106, acronym: "Intech", publisher: "IntechOpen", journal: "Book Chapter",
-    authors: "Alkesh Agrawal",
+    authors: " Dr.Alkesh Agrawal",
     title: "\"An Application-Based Study on Electromagnetic Absorber Using Metamaterial\"",
     source: "Metamaterials - History, Current State, Applications, and Perspectives, 2022.",
     indexing: "Indexed in SCOPUS", issn_isbn: "Online First ISBN: 978-1-83969-633-6",

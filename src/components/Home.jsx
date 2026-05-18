@@ -30,7 +30,6 @@ const Home = ({ setActiveTab }) => {
             <img src={authorImg} alt="Dr. Alkesh Agrawal" className="hero-image" />
             <br /><br />
             <br />
-
              <span className="hero-title-sub">Deputy Director-Research & Consultancy (SRMU)</span>
              <span className="hero-title-sub">President IIC-SRMU</span>
              <span className="hero-title-sub">Convenor-CIIE</span>
