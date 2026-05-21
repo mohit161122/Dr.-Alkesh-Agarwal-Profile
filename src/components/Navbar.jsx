@@ -31,9 +31,9 @@ const Navbar = ({ activeTab, setActiveTab }) => {
   return (
     <nav className="pill-navbar">
       <div className="pill-navbar-inner">
-        <div className="pill-navbar-logo" onClick={() => handleTabClick('Home')}>
+        {/* <div className="pill-navbar-logo" onClick={() => handleTabClick('Home')}>
           Prof. (Dr.) Alkesh Agrawal
-        </div>
+        </div> */}
         
         {/* Hamburger Menu for Mobile */}
         <button 
