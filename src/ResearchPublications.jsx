@@ -33,7 +33,7 @@ const journalPapers = [
     id: 1, acronym: "IJCIS",
     publisher: "Springer Nature",
     journal: "Int. Jour. Comp. Intelli Sys.",
-    authors: "Saifullah Khalid, Shashi Kant Gupta, Midhun Chakkaravarthy, D. K. Nishad, Dharmendra Prakash , Alkesh Agrawal",
+    authors: "Saifullah Khalid, Shashi Kant Gupta, Midhun Chakkaravarthy, D. K. Nishad, Dharmendra Prakash, Alkesh Agrawal  ",
     title: "“Multi-modal AI-Enabled UAV Network for Fog Dispersal and Runway-Visibility Enhancement at an International Airport”",
     source: "International Journal of Computational Intelligence Systems (Springer Nature), Vol. 19, pp. (57) 1-62, 2026.",
     indexing: "Indexed in WoS-SCIE, I.F 3.3", issn_isbn: "ISSN: 1875-6883",
@@ -42,7 +42,7 @@ const journalPapers = [
   },
   {
     id: 2, acronym: "IJMOT", publisher: "IJMOT", journal: "Int. J. Micr. & Opt. Tech.",
-    authors: "Bhagwant Singh, Alkesh Agrawal*, Supriya, Alka Yadav",
+    authors: "Bhagwant Singh, Alkesh Agrawal , Supriya, Alka Yadav",
     title: "“Multi-Band with Ultra Wide-Band Square Circular and Cross Shaped Resonators Based Metamaterial Absorber for Stealth and 5G Applications”",
     source: "International Journal of Microwave and Optical Technology, Vol. 21, no. 1, pp. 58-66, Jan., 2026.",
     indexing: "Indexed in SCOPUS", issn_isbn: "ISSN: 1553-0396",
@@ -79,7 +79,7 @@ const journalPapers = [
   },
   {
     id: 6, acronym: "PIER-M", publisher: "PIER", journal: "PIER M",
-    authors: "Sunil K. Dubey, Ashok Kumar Shankhwar, Nand Kishore, and Alkesh Agrawal*",
+    authors: "Sunil K. Dubey, Ashok Kumar Shankhwar, Nand Kishore, and Alkesh Agrawal",
     title: "\"High Gain and Bandwidth Enhanced Microstrip Patch Antenna with Defective Ground Structure Loaded with Metamaterial Unit Cells for Intelligent Transportation Systems,\"",
     source: "Progress In Electromagnetics Research M, Vol. 136, 57-67, 2025.",
     indexing: "Indexed in WoS-SCIE, I.F 0.8", issn_isbn: "ISSN: 1937-8726",
@@ -89,8 +89,8 @@ const journalPapers = [
   },
   {
     id: 7, acronym: "IJMOT", publisher: "IJMOT", journal: "IJMOT",
-    authors: "Bhagwant Singh, Alkesh Agrawal*, Supriya, Alka Yadav",
-    title: "\"Quad Circular with Plus Shaped Resonators Based Multi-Band Metamaterial Absorber”",
+    authors: "Bhagwant Singh, Alkesh Agrawal, Supriya, Alka Yadav",
+    title: "\"Quad Circular with Plus Shaped Resonators Based Multi-Band Metamaterial Absorber\"",
     source: "International Journal of Microwave and Optical Technology, Vol. 20, no. 3, pp. 243-250, Jun., 2025.",
     indexing: "Indexed in SCOPUS", issn_isbn: "ISSN: 1553-0396",
     doi_url: "https://ijmot.com/VOL-20-NO-3.aspx", image: page2,
@@ -235,14 +235,35 @@ const bookChapters = [
 ];
 
 const renderAuthors = (authors) => {
-  const parts = authors.split(/(Dr\.?Alkesh Agrawal\*?)/g);
-  return parts.map((part, i) => {
-    if (part.match(/Alkesh Agrawal/)) {
-      const displayName = part.startsWith('Dr.') ? part : `Dr. ${part}`;
-      return <strong><em key={i}>{displayName}</em></strong>;
-    }
-    return part;
-  });
+  const authorList = authors.split(',').map(a => a.trim()).filter(Boolean);
+
+  return (
+    <>
+      {authorList.map((author, i) => {
+        const isFirst = i === 0;
+        const isLast = i === authorList.length - 1;
+        const isAlkesh = /Alkesh Agrawal/.test(author);
+
+        // Clean existing Dr. prefix to avoid "Dr. Dr."
+        const cleanName = author.replace(/^Dr\.?\s*/i, '');
+
+        return (
+          <span key={i}>
+            {isAlkesh ? (
+              <span style={{ fontWeight: 'bold', fontStyle: 'italic' }}>
+                {isFirst ? 'Dr. ' : ''}{cleanName}
+              </span>
+            ) : (
+              <span style={{ fontWeight: 'bold' }}>
+                {isFirst ? 'Dr. ' : ''}{cleanName}
+              </span>
+            )}
+            {!isLast && ', '}
+          </span>
+        );
+      })}
+    </>
+  );
 };
 
 const PublicationCard = ({ pub }) => {
@@ -268,7 +289,7 @@ const PublicationCard = ({ pub }) => {
       <div className="pub-text-content">
         <div className="publication-content">
           <div className="publication-details">
-            {renderAuthors(pub.authors)}, {pub.title}, {pub.source}
+            {renderAuthors(pub.authors)}<span>, {pub.title}, {pub.source}</span>
           </div>
           <div className="publication-footer">
             <span className="indexed-info"><strong>{pub.indexing}</strong> {pub.issn_isbn}</span>

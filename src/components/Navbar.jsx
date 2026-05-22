@@ -7,7 +7,6 @@ const Navbar = ({ activeTab, setActiveTab }) => {
   const tabs = [
     { id: 'Home', label: 'Home' },
     { id: 'Publications', label: 'Publications' },
-   
     { id: 'Awards', label: 'Awards' },
     { id: 'Patents', label: 'Patents' },
     { id: 'Reviewer', label: 'Reviewer' },
