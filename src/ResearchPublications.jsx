@@ -251,11 +251,11 @@ const renderAuthors = (authors) => {
           <span key={i}>
             {isAlkesh ? (
               <span style={{ fontWeight: 'bold', fontStyle: 'italic' }}>
-                {isFirst ? 'Dr. ' : ''}{cleanName}
+                {isFirst ? ' ' : ''}{cleanName}
               </span>
             ) : (
               <span style={{ fontWeight: 'bold' }}>
-                {isFirst ? 'Dr. ' : ''}{cleanName}
+                {isFirst ? ' ' : ''}{cleanName}
               </span>
             )}
             {!isLast && ', '}
