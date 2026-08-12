@@ -3,6 +3,7 @@ import './ResearchPublications.css';
 import authorImg from './assets/author.png';
 
 // Page images
+
 import page1 from './assets/page1.png';
 import page2 from './assets/page2.png';
 import page3 from './assets/page3.png';
@@ -18,6 +19,7 @@ import page13 from './assets/page13.png';
 import page14 from './assets/page14.png';
 import page15 from './assets/page15.png';
 import page16 from './assets/page16.png';
+import page17 from './assets/page17.png';
 
 // Book images
 import book1 from './assets/book1.png';
@@ -28,7 +30,31 @@ import book5 from './assets/book5.png';
 import book6 from './assets/book6.png';
 
 
+
 const journalPapers = [
+  {
+    id: 17, acronym: "IJMOT",
+    publisher: "IJMOT",
+    journal: "Int. J. Micr. & Opt. Tech.",
+    authors: "Supriya, Alkesh Agrawal, Bhagwant Singh, Vijay Tiwari",
+    title: '"Dual-Band Incidence and Polarization Angle Independent Concentric Split Square Resonators Based Metamaterial Absorber for X-Band Applications"',
+    source: "International Journal of Microwave and Optical Technology, Vol. 21, no. 4, pp. 452-460, Jul., 2026.",
+    indexing: "Indexed in SCOPUS", issn_isbn: "ISSN: 1553-0396",
+    doi_url: "https://ijmot.com//VOL-21-NO-4.aspx",
+    image: page2,
+  },
+  {
+    id: 18, acronym: "IJIRA",
+    publisher: "Springer Nature",
+    journal: "Int. Jour. Intelli. Robot. Appl.",
+    authors: "Dharmendra Prakash, Alkesh Agrawal, Saiffulah Khalid",
+    title: '"Bio-inspired UAV swarm navigation for enhanced runway visibility: a pigeon feather flight path optimisation approach at Amritsar airport"',
+    source: "International Journal of Intelligent Robotics and Applications (Springer Nature), Jul., 2026.",
+    indexing: "Springer Nature", issn_isbn: "ISSN: 2366-598X",
+    doi_url: "https://doi.org/10.1007/s41315-026-00554-7",
+    image: page17,
+  },
+
   {
     id: 1, acronym: "IJCIS",
     publisher: "Springer Nature",
