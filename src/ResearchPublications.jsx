@@ -50,7 +50,7 @@ const journalPapers = [
     authors: "Dharmendra Prakash, Alkesh Agrawal, Saiffulah Khalid",
     title: '"Bio-inspired UAV swarm navigation for enhanced runway visibility: a pigeon feather flight path optimisation approach at Amritsar airport"',
     source: "International Journal of Intelligent Robotics and Applications (Springer Nature), Jul., 2026.",
-    indexing: "Springer Nature", issn_isbn: "ISSN: 2366-598X",
+    indexing: "Springer Nature, I.F 3.0", issn_isbn: "ISSN: 2366-598X",
     doi_url: "https://doi.org/10.1007/s41315-026-00554-7",
     image: page17,
   },
