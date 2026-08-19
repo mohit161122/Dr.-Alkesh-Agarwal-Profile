@@ -5,8 +5,19 @@ import media2 from '../assets/media2.png';
 import media3 from '../assets/media3.jpg';
 import media4 from '../assets/media4.jpeg';
 import media5 from '../assets/media5.png';
+import media6 from '../assets/media6.jpeg';
+
 
 const mediaHighlights = [
+  {
+    id: 6,
+    category: 'Newspaper Feature',
+    title: 'RDC meeting in Shri Ramswaroop Memorial University,  Barabanki under the chairmanship of Vice Chancellor Prof. (Dr.) Vijay Tiwari.',
+    image: media6,
+    description: 'SRMU featured in the newspaper for its focus on quality research, international publications, innovation, and improving the university’s H-index. A proud moment highlighting SRMU’s commitment to academic excellence and research..',
+    link: media6,
+    cta: 'See full page'
+  },
   {
     id: 1,
     category: 'Newspaper Feature',
