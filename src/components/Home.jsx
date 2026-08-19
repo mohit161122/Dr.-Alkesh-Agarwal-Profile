@@ -1,13 +1,11 @@
 import React from 'react';
 import './Home.css';
-import authorImg from '../assets/author.png';
+import authorImg from '../assets/author.webp';
 import wosImg from '../assets/1.png';
 import scopusImg from '../assets/2.png';
 import orcidImg from '../assets/3.png';
 import linkedinImg from '../assets/4.png';
 import scholarImg from '../assets/5.png';
-
-
 
 const Home = ({ setActiveTab }) => {
   const handleCardClick = (tab) => {

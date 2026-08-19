@@ -1,6 +1,6 @@
 import React from 'react';
 import './Gallery.css';
-import authorImg from '../assets/author.png';
+import authorImg from '../assets/author.webp';
 
 const researchImages = [
   {
