@@ -20,6 +20,7 @@ import page14 from './assets/page14.png';
 import page15 from './assets/page15.png';
 import page16 from './assets/page16.png';
 import page17 from './assets/page17.png';
+import page19 from './assets/page19.png';
 
 // Book images
 import book1 from './assets/book1.png';
@@ -32,6 +33,17 @@ import book6 from './assets/book6.png';
 
 
 const journalPapers = [
+  {
+    id: 19, acronym: "IJIRA",
+    publisher: "Springer Nature",
+    journal: "Int. Jour. Intelli. Robot. Appl.",
+    authors: "Dharmendra Prakash, Alkesh Agrawal, and Saifullah Khalid",
+    title: '"Bio-inspired UAV swarm navigation for enhanced runway visibility: a pigeon feather flight path optimisation approach at Amritsar airport"',
+    source: "International Journal of Intelligent Robotics and Applications, July, 2026.",
+    indexing: "Springer Nature, I.F 3.0", issn_isbn: "ISSN: 2366-598X",
+    doi_url: "https://doi.org/10.1007/s41315-026-00554-7",
+    image: page19,
+  },
   {
     id: 17, acronym: "IJMOT",
     publisher: "IJMOT",
