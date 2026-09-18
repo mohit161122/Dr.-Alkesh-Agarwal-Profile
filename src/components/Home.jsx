@@ -62,7 +62,7 @@ const Home = ({ setActiveTab }) => {
             onKeyDown={(event) => event.key === 'Enter' && handleCardClick('Publications')}
           >
             <div className="stat-icon-large">📄</div>
-            <div className="stat-number">22+</div>
+            <div className="stat-number">25+</div>
             <div className="stat-title">Publications</div>
             <div className="stat-description">Peer-reviewed papers in reputed journals</div>
           </div>
