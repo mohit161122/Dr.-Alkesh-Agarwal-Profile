@@ -21,6 +21,8 @@ import page15 from './assets/page15.png';
 import page16 from './assets/page16.png';
 import page17 from './assets/page17.png';
 import page19 from './assets/page19.png';
+import page20 from './assets/page20.png';
+import page21 from './assets/page21.png';
 
 // Book images
 import book1 from './assets/book1.png';
@@ -33,6 +35,29 @@ import book6 from './assets/book6.png';
 
 
 const journalPapers = [
+
+  {
+    id: 20, acronym: "IJASS",
+    publisher: "Springer Nature",
+    journal: "International Journal of Aeronautical and Space Sciences",
+    authors: "Dharmendra Prakash, Alkesh Agrawal, Saiffulah Khalid, and Dinesh Kumar Nishad",
+    title: "A Quantum-Fuzzy Framework for Aerial Object Detection via Frequency Domain Analysis in UAV Systems",
+    source: "International Journal of Aeronautical and Space Sciences (Springer Nature), Sep., 2026.",
+    indexing: "ISSN: 2093-2480  (I.F: 2.0 ) ", issn_isbn: "(WoS-SCIE)",
+    doi_url: "https://doi.org/10.1007/s42405-026-01285-6",
+    image: page20,
+  },
+  {
+    id: 21, acronym: "PIER-M",
+    publisher: "PIER",
+    journal: "Progress In Electromagnetics Research M",
+    authors: "Supriya, Alkesh Agrawal*, Bhagwant Singh, and Vijay Tiwari",
+    title: "Quadruple Concentric Split Ring Resonators-Based Dual Broad-Band Metamaterial Absorber for X- and Ku-Band Applications",
+    source: "Progress In Electromagnetics Research M, Vol. 139, 104-114, 2026.",
+    indexing: "ISSN: 1937-8726 (I.F: 1.1)", issn_isbn: "(WoS-SCIE)",
+    doi_url: "http://dx.doi.org/10.2528/PIERM26060806",
+    image: page21,
+  },
   {
     id: 19, acronym: "IJIRA",
     publisher: "Springer Nature",
